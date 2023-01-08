@@ -1,0 +1,63 @@
+body {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table {
+    border-spacing: 20px;
+}
+
+.studio {
+    border: 1px solid black;
+    width: 600px;
+    height: auto;
+}
+
+ul a{
+    color:white;
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    background-color: coral;
+}
+.talma {
+    border: 1px solid black;
+    width: 600px;
+    height: auto;
+}
+
+.lessing {
+    border: 1px solid black;
+    width: 600px;
+    height: auto;
+}
+
+.koolhoven{
+        border: 1px solid black;
+        width: 600px;
+        height: auto;
+    }
+    
+@keyframes woningnet {
+0% {color:black;}
+25% {color:crimson}
+50% {color:black;}
+100%{color: red;}
+}
+
+.woningnet {
+    animation-name: woningnet;
+    animation-duration: 10s;
+}
